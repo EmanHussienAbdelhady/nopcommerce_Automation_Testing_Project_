@@ -1,7 +1,9 @@
 # nopcommerce_Automation_Testing_Project_
  Automate e-commerce website testing with Selenium &amp; Cucumber BDD. Validate registration, login, search, Wishlist features. POM design ensures maintainability. Contributions welcome!
+ 
 **Project Description**
 This project aims to automate various features of an e-commerce website using Selenium WebDriver and Cucumber BDD framework. Each feature is implemented as a separate scenario and is thoroughly documented to facilitate understanding and review.
+
 
 **Features**
 Registration Feature
@@ -28,10 +30,12 @@ Allows users to follow social media links. Verifies that each social media link 
 Wishlist Feature
 Enables users to add products to their wishlist. Verifies that the success message is displayed and its background color is green.
 
+
 **Repository Structure**
 src/main/resources/features: Contains feature files for each feature.
 src/test/java/org.example/stepDefs: Contains step definition classes for each feature.
 src/test/java/org.example/pages: Contains page classes to apply the Page Object Model (POM) design pattern.
+
 **Running the Tests**
 Clone the repository to your local machine.
 Set up the Selenium WebDriver and Cucumber dependencies in your project.
